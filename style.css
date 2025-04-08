@@ -1,0 +1,27 @@
+html, body {
+    font-family: sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    appearance: none;
+    border: 2px solid gray;
+    border-radius: 2px;
+}
+
+input:valid {
+    background-color: rgb(216, 255, 216);
+}
+
+input:invalid {
+    background-color: rgb(255, 208, 208);
+}
+
+button {
+    width: 100px;
+}
